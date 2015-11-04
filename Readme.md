@@ -3,8 +3,8 @@
     bundle install
 * To Poke Around
 
-     ./run_pry.rb
+        ./run_pry.rb
 
 * To View in Browser
 
-    shotgun app.rb to view as sinatra app
+        shotgun app.rb to view as sinatra app
