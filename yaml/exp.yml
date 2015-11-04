@@ -1,0 +1,83 @@
+--- !justin.jetfive.com/
+tssh:
+  comments: |
+    Starting Fall of 2008, I developed a simple RIS system to
+    read in our reports to our PACS system. It maintained accession
+    numbers and patient data allowing us to track start and stop times of
+    exams and produce metrics for tracking wait times and report turn
+    around. We used this program four years until replacing it with a
+    hospital EHR. I built it with ruby on rails. I learned lots during this
+    time and consider it one of the most enjoyable parts of my job at TSSH.
+    It turns out that we should not have sunsetted the system when we did.
+    The EHR did not live upto its name and we recently re-implemented lots of what
+    I had already done with this program.
+  name  : Tulsa Spine and Specialty Hospital
+  date  : 2006-03-22 - present
+  address :
+    street: 6901 S. Olympia Ave.
+    city  : Tulsa
+    state : OK
+    zip   : 74132
+  position:
+    - title : Lead Rad Tech
+      date  : 2014
+      responsibilities : |
+        I wear multiple hats from call rotation and shift scheduling to
+        ensuring the PACS system is in order. I maintain the CT and MRI
+        protocols and gather data to analyze our dose in CT. I ensure the
+        computer systems we leverage in Radiology perform to their maximum
+        potential. I am the goto person after the Director.
+    - title : Lead MRI Tech
+      date  : 2012-06
+      responsibilities : |
+        As lead MRI Tech, I was responsible for maintaining the MRI protocols.
+        Creating new protocols and ensuring the Radiologists liked the current ones.
+        Calling support for issues related to the system. Maintaining the current
+        research studies in MRI. Teaching fellow employees how to use the MRI system.
+        Teaching MRI safety.
+    - title : Lead CT Tech
+      date  : 2008-05
+      responsibilities : |
+        As lead CT Tech, I was responsible for maintaining the CT protocols.
+        I ensured that all the techs keep the radiation dose given to a minimum.
+        I also keep a record of that dose.
+    - title : PACS Admin
+      date  : 2008-05
+      responsibilities : |
+        As the PACS Admin, I maintained the picture archiving and communication system.
+        It is basically an Oracle db on steroids. It has a viewer for the Radiologists to
+        read the images obtained during imaging. I taught the doctor's how to use the
+        viewer and made sure it was installed correctly on their machines.
+    - title : MRI Tech
+      date  : 2007-03
+      responsibilities : |
+        As an MRI Tech I am required to know the basics of imaging with an MRI machine.
+        How to create and edit protocols, and how to implement proper safety around a
+        superconducting magnet.
+    - title : CT Tech
+      date  : 2006-09
+      responsibilities : |
+        As a CT Tech I am required to know the basics of imaging with a CT machine.
+        How to keep radiation dose given to a minimum.
+    - title : X-Ray Tech
+      date  : 2006-03
+      responsibilities : |
+        As an X-Ray Tech I am required to know the basics of imaging with an X-Ray machine.
+        How to keep radiation to a minimum and to know safe practices with patients.
+computer_nerdz:
+  name  : Computer Nerdz
+  date  : 2005-10 - 2006-03
+  position:
+    - title : Field Nerd
+      date  : 2005 - 2006
+      responsibilities : |
+        I went to homes and businesses and helped people with various computer problems
+southcrest:
+  name  : Southcrest Hospital
+  date  : 2003 - 2005
+  position:
+    - title : Student Technologist
+      date  : 2003 - 2005
+      responsibilities : |
+        I did my clinical training for Radiology here. I also worked some nights and weekend
+        shifts under the guidance of registered techs.

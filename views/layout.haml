@@ -1,0 +1,30 @@
+!!!
+%html
+  %head
+    %link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous")
+    %link(rel="stylesheet" href="css/style.css")
+    %title Justin Richter's Resume
+  %body
+    %div.row
+      %div{id: "picture", class:".col-md-1"}
+        %img{ src: "/images/me_small.jpg", alt: "Me" }
+      %div.col-md-4
+        %a{href: "/", title: "Home"}
+          Home
+        %a{href: "/edu", title: "Education"}
+          Education
+        %a{href: "/exp", title: "Experience"}
+          Experience
+        %a{href: "/skills", title: "Skills"}
+          Skills
+        %a{href: "/ascii", title: "Picture"}
+          AsciiArt
+        %h1{id: "title"}
+          =settings.name
+        %p
+          Dad, Husband, Christ Follower
+        %p
+          =settings.contact
+    %div.row
+      %div.col-md-12
+        =yield

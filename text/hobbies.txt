@@ -1,0 +1,10 @@
+I like to program and build websites. I built a website for my in-laws
+business several years ago, www.tulsagrass.com and www.ospa.us, and my
+blog, justin.jetfive.com. www.jetfive.com runs on heroku. The
+tulsagrass site runs on Rackspace. My blog uses github pages. I also
+have a raspberry pi as a server at home.
+
+I like to read. I like to study the Bible. I like listening to
+podcasts while doing yard work.
+
+I have spent countless hours yak shaving .emacs.d.

@@ -1,0 +1,20 @@
+.
+
+Radiology Registries
+MRI (2010)
+CT (2009)
+X-Ray (2006)
+
+Computer Technology
+Apache
+MySQL
+Linux
+Windows
+Ruby
+Ruby on Rails (mostly with Rails 2)
+HTML
+CSS
+Javascript
+Some HL7 Messaging
+Toshiba MRI and CT
+Carestream Health PACS

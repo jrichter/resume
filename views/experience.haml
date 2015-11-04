@@ -1,0 +1,21 @@
+%h1
+  Experience
+  %hr
+-exp.each do |k,v|
+  %div.row
+    %div.col-md-12
+      %h2= v["name"]
+      %p
+        = v["date"]
+    %div.col-md-12
+      -v["position"].to_a.each do |item|
+        -item.keys.each do |key|
+          %div.col-md-2
+            %li= key
+          %div.col-md-10
+            = item[key]
+    -if v["comments"]
+      %div.col-md-12
+        %em
+          =v["comments"]
+    %hr

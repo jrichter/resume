@@ -1,0 +1,11 @@
+%p
+  =about
+%p
+  =summary
+%p
+  =hobbies
+%ul.links
+  -links.each do |link|
+    %li
+      %a{href: link["url"]}
+        =link["name"]

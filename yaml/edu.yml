@@ -1,0 +1,28 @@
+--- !justin.jetfive.com/
+tcc:
+  name  : Tulsa Community College
+  date  : 2002 - 2005
+  address :
+    street: 3727 E Apache St
+    city  : Tulsa
+    state : OK
+    zip   : 74115
+  degree :
+    - title     : Associates of Applied Science, Radiology
+      date      : 2005
+      graduated : Yes
+    - title     : Associates of Arts, Liberal Arts
+      date      : 2004
+      graduated : Yes
+tamu:
+  name  : Texas A&M University
+  date  : 2000 - 2002
+  address :
+    street: 401 Joe Routt Blvd
+    city  : College Station
+    state : TX
+    zip   : 77843
+  degree :
+    - title     : Computer Engineering
+      date      :
+      graduated : No

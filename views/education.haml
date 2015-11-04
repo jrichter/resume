@@ -1,0 +1,17 @@
+%h1
+  Education
+  %hr
+-edu.each do |k,v|
+  %div.row
+    %div.col-md-6
+      %h2= v["name"]
+      %p
+        = v["date"]
+      -v["degree"].to_a.each do |d|
+        %p=d["title"]
+        %p
+          Graduated:
+          -if d["graduated"]
+            Yes
+          -else
+            No
