@@ -7,4 +7,4 @@
 
 * To View in Browser
 
-        shotgun app.rb to view as sinatra app
+        shotgun app.rb
